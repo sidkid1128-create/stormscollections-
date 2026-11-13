@@ -1,113 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storms Collections | Luxury. Confidence. Connection.</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Storms Collections — luxury, confidence, connection.">
+  <title>Storms Collections | Luxury. Confidence. Connection.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header>
-
-<div class="logo">
-
-<h1>Storms Collections</h1>
-
-<p>Luxury • Confidence • Connection</p>
-
-</div>
-
-<nav>
-
-<a href="#">Home</a>
-
-<a href="#">Shop</a>
-
-<a href="#">Collections</a>
-
-<a href="#">Queen Storm</a>
-
-<a href="#">About</a>
-
-<a href="#">Contact</a>
-
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<div class="overlay">
-
-<h2>Luxury Without Compromise</h2>
-
-<p>
-Curated intimate wellness for modern royalty.
-</p>
-
-<a class="btn" href="#">
-Shop Now
-</a>
-
-</div>
-
-</section>
-
-
-<section class="collections">
-
-<h2>Featured Collections</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Women's Wellness</h3>
-</div>
-
-<div class="card">
-<h3>Couples</h3>
-</div>
-
-<div class="card">
-<h3>Luxury Collection</h3>
-</div>
-
-<div class="card">
-<h3>Men's Wellness</h3>
-</div>
-
-</div>
-
-</section>
-
-
-<section class="queen">
-
-<h2>Meet Queen Storm</h2>
-
-<p>
-
-"Every queen deserves confidence, elegance, and the freedom to embrace who she is."
-
-</p>
-
-</section>
-
-
-<footer>
-
-Storms Collections © 2026
-
-</footer>
-
-<script src="script.js"></script>
-
+  <header class="site-header" id="home">
+    <div class="logo"><h1>Storms Collections</h1><p>Luxury • Confidence • Connection</p></div>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#queen">Queen Storm</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><span class="eyebrow">THE STORM COLLECTION</span><h2 id="hero-title">Luxury Without Compromise</h2><p>Curated intimate wellness for modern royalty.</p><a class="btn" href="#collections">Explore Collections</a></div>
+      <img class="hero-image" src="storm-queen.png" alt="Queen Storm wearing an ornate royal-blue and gold gown, crown, and jeweled masquerade mask against a lightning-filled sky" fetchpriority="high">
+    </section>
+    <section class="collections section" id="collections"><h2>Featured Collections</h2><div class="cards"><a class="card" href="#contact"><h3>Women's Wellness</h3></a><a class="card" href="#contact"><h3>Couples</h3></a><a class="card" href="#contact"><h3>Luxury Collection</h3></a><a class="card" href="#contact"><h3>Men's Wellness</h3></a></div></section>
+    <section class="queen section" id="queen"><div class="queen-image-wrap"><img src="storm-queen.png" loading="lazy" alt="Queen Storm, the face of the Storm Collection"></div><div class="queen-copy"><span class="eyebrow">I SEE YOU</span><h2>Meet Queen Storm</h2><blockquote>“Every queen deserves confidence, elegance, and the freedom to embrace who she is.”</blockquote><a class="btn" href="#contact">Connect With Us</a></div></section>
+    <section class="section simple-section" id="shop"><h2>Shop</h2><p>Our curated collections are coming soon. Contact us for more information.</p></section>
+    <section class="section simple-section" id="about"><h2>About Storms Collections</h2><p>Luxury • Confidence • Connection</p></section>
+    <section class="section simple-section" id="contact"><h2>Contact</h2><p>Interested in the collection? Reach out through our official contact channels.</p></section>
+  </main>
+  <footer>Storms Collections © <span id="year">2026</span></footer>
+  <script src="script.js"></script>
 </body>
 </html>
